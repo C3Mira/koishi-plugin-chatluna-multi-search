@@ -1,0 +1,26 @@
+{
+  "name": "koishi-plugin-chatluna-multi-search",
+  "description": "Multi-provider (Tavily + Exa) web search & fetch tools for chatluna, with multi-key failover",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": ["lib", "src"],
+  "license": "Apache-2.0",
+  "keywords": ["chatbot", "koishi", "plugin", "chatluna", "search", "tavily", "exa"],
+  "peerDependencies": {
+    "koishi": "^4.18.7",
+    "koishi-plugin-chatluna": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "koishi": "^4.18.7",
+    "koishi-plugin-chatluna": "^1.0.0"
+  },
+  "koishi": {
+    "description": {
+      "zh": "ChatLuna 联网搜索：Tavily + Exa，多 Key 自动切换，额度用完自动换下一个",
+      "en": "Tavily + Exa web search for ChatLuna with multi-key failover"
+    },
+    "service": { "required": ["chatluna"] }
+  }
+}
