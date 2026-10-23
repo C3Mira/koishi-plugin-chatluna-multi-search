@@ -46,7 +46,4 @@ chatluna-multi-search:
   strategy: priority
 ```
 
-## 免编译安装
 
-整个文件夹复制到 `<Koishi目录>/node_modules/koishi-plugin-chatluna-multi-search/`，重启 Koishi。
-`lib/index.js` 已编译好，`src/` 为源码。
